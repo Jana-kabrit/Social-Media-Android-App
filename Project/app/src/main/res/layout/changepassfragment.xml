@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Current Password"
+        android:id="@+id/CurrentPassword"
+        android:layout_gravity="center_horizontal">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter A New Password"
+        android:id="@+id/NewPassword"
+        android:layout_gravity="center_horizontal">
+    </EditText>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changepassfinal"
+        android:src="@drawable/changepassfinalbutton"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent">
+    </ImageButton>
+
+</LinearLayout>

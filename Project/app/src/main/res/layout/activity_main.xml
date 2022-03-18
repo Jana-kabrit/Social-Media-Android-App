@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/grdiant_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/foxhub_logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-100dp">
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/handshake1"
+        android:layout_gravity="center"
+        android:layout_marginTop="-30dp"
+        android:layout_margin="0dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Hi There! \n Welcome Back!"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:fontFamily="SF Pro Display"
+        android:textStyle="bold">
+    </TextView>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:hint="Enter Your Username"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:textStyle="italic">
+    </EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:hint="Enter Your Password"
+        android:layout_gravity="center"
+        android:padding="30dp"
+        android:inputType="textPassword"
+        android:textStyle="italic">
+    </EditText>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/loginbutton"
+        android:background="@android:color/transparent"
+        android:onClick="loginPress"
+        android:layout_gravity="center"
+        android:layout_margin="15dp">
+    </ImageButton>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Don't have an account?"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:fontFamily="SF Pro Display">
+    </TextView>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:src="@drawable/signupbutton"
+        android:layout_gravity="center"
+        android:onClick="signUpAct"
+        android:layout_margin="15dp">
+    </ImageButton>
+
+</LinearLayout>
