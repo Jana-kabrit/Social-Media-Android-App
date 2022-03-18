@@ -1,0 +1,2 @@
+# Social-Media-Android-App
+This is a small social media app that is created on Android studio. It has features such as topics where people can post in. You can log in and sign up and the app database is linked to firebase. You can also customize your settings, info, profile picture. There is also a special feature where you can request to be one of the main admins of the app by requesting a special key that is randomized every time it is generated.
